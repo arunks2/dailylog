@@ -1,0 +1,103 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/foundation-datepicker.min.css">
+  </head>
+  <body>
+	
+      <div class="row activity">
+      <div class="large-2 columns large-offset-1 user-details">
+      	<img src="img/avatar.png"><br>
+        Arun Kumar
+        <div class="activity-datepicker">
+        	Activities by date 
+        	<input type="text" class="span2" value="02-12-1989" id="dp1">
+        </div>
+      </div>	
+      <div class="large-6 columns activity-list">
+      	<form>
+        <div class="row">
+          <div class="large-12 columns">
+              <div class="row collapse postfix-radius activity-form">
+                <div class="small-10 columns">
+                  <input type="text" placeholder="Add activity & press enter">
+                </div>
+                <div class="small-2 columns">
+                  <a href="#" class="button secondary postfix" style="">Add</a>
+                </div>
+              </div>
+            </div>
+            </div>
+         </form>
+      	<ul class="activities">
+        	<li>
+            	 <ul class="actions">
+                	<li class="unapproved"><span>Unapproved</span><i class="fa fa-check-circle"></i></li>
+                    <li class="comments"><a href='#'><span>12 Comments</span><i class="fa fa-comments"></i><span class="number">12</span></a></li>
+                </ul>
+            	<span class="activity-text">Activity text goes over here</span>
+                <span class="activity-time">11:50 a.m.</span>
+               
+            </li>
+            <li>
+            	 <ul class="actions">
+                	<li class="unapproved"><span>Unapproved</span><i class="fa fa-check-circle"></i></li>
+                    <li class="comments"><a href='#'><span>12 Comments</span><i class="fa fa-comments"></i><span class="number">12</span></a></li>
+                </ul>
+            	<span class="activity-text">A very lengthy activity text should be tested for breaking the layout Activity text goes over here</span>
+                <span class="activity-time">11:50 a.m.</span>
+               
+            </li>
+            <li>
+            	 <ul class="actions">
+                	<li class="approved"><span>Unapproved</span><i class="fa fa-check-circle"></i></li>
+                    <li class="comments"><a href='#'><span>12 Comments</span><i class="fa fa-comments"></i><span class="number">12</span></a></li>
+                </ul>
+            	<span class="activity-text">Activity text goes over here</span>
+                <span class="activity-time">11:50 a.m.</span>
+               
+            </li>
+            <li>
+            	 <ul class="actions">
+                	<li class="unapproved"><span>Unapproved</span><i class="fa fa-check-circle"></i></li>
+                    <li class="comments"><a href='#'><span>12 Comments</span><i class="fa fa-comments"></i><span class="number">12</span></a></li>
+                </ul>
+            	<span class="activity-text">Activity text goes over here</span>
+                <span class="activity-time">11:50 a.m.</span>
+               
+            </li>
+        </ul>
+      </div>
+      <div class="large-2 columns end menu">
+      	<ul class="menu-c">
+        	<li><a href='#'><i class="fa fa-users"></i>View Users</a>
+            <li><a href='#'><i class="fa fa-pencil"></i>Edit Profile</a>
+            <li><a href='#'><i class="fa fa-list-ul"></i>Earlier Activities</a>
+            <li><a href='#'><i class="fa fa-sign-out"></i>Logout</a>
+        </ul>
+      </div>	
+    </div>
+
+    
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/foundation-datepicker.js"></script>
+	<script src="js/locales/foundation-datepicker.vi.js"></script>
+    <script>
+	$('#dp1').fdatepicker({
+					format: 'mm-dd-yyyy',
+					disableDblClickSelection: true
+				});
+	</script>
+  </body>
+</html>
