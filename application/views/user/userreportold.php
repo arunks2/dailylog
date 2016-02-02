@@ -1,3 +1,5 @@
+/*this file is useless and redundant */
+
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
