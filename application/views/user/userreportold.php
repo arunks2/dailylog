@@ -1,4 +1,4 @@
-/*this file is useless and redundant */
+/*this file is useless and redundant 2 */
 
 <!doctype html>
 <html class="no-js" lang="en">

@@ -1,2 +1,2 @@
-This App lets user of an  Organizations
-to log daily activities. 
+This App lets user of an  Organization
+to log daily his/her activities. 
